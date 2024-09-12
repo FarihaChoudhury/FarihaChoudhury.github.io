@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="app.js"> </script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Gallery</title>
+</head>
+<body>
+    <header id = "main-header">
+        <!-- the content of the header goes here -->
+         <h1 id="logo">Travel Gallery </h1>
+    <nav>
+        <ul id="nav-ul">
+            <li><a href="" class="navbutton">Gallery Home</a></li>
+            <li><a href="" class="navbutton">About Me</a></li>
+            <li><a href="" class="navbutton">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <div id="main-content">
+            <aside> 
+                <section>
+                    <h4>Filter by Year</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">2024</a></li>
+                            <li><a href="">2023</a></li>
+                            <li><a href="">2022</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+
+            <div id="oman">
+                <h2>Oman Pics:</h2>
+                <div class="gallery-images">
+                    <img src="muscat/IMG_6275.JPG" alt="muscat 1">
+                    <img src="muscat/IMG_6276.JPG" alt="muscat 2">
+                    <img src="muscat/IMG_6279.jpg" alt="muscat 3">
+                    <img src="muscat/IMG_6280.jpg" alt="muscat 4">
+                    <img src="muscat/IMG_6281.jpg" alt="muscat 5">
+                    <img src="muscat/IMG_6282.jpg" alt="muscat 6">
+                    <img src="muscat/IMG_6283.jpg" alt="muscat 7">
+                    <img src="muscat/IMG_6284.jpg" alt="muscat 8">
+                    <img src="muscat/IMG_6285.jpg" alt="muscat 9">
+                    <img src="muscat/IMG_6286.jpg" alt="muscat 10">
+                </div>
+
+            </div>
+
+            <div id="saudi">
+                <h2>Saudi Arabia Pics:</h2>
+                <div class="gallery-images">
+                    <img src="saudi/IMG_5255.JPG" alt="saudi 1">
+                    <img src="saudi/IMG_6272.jpg" alt="saudi 2">
+                    <img src="saudi/IMG_6274.JPG" alt="saudi 3">
+                    <img src="saudi/IMG_6288.jpg" alt="saudi 4">
+                    <img src="saudi/IMG_6289.jpg" alt="saudi 5">
+                    <img src="saudi/IMG_6290.jpg" alt="saudi 6">
+                    <img src="saudi/IMG_6287.jpg" alt="saudi 7">
+                    <img src="saudi/IMG_6291.jpg" alt="saudi 8">
+                    <img src="saudi/IMG_6293.jpg" alt="saudi 9">
+                    <img src="saudi/IMG_6294.jpg" alt="saudi 10">
+                </div>
+            </div>
+            <div id="uae">
+                <h2>UAE Pics:</h2>
+                <div class="gallery-images">
+                    <img src="dubai/IMG_6270.JPG" alt="dubai 1">
+                    <img src="dubai/IMG_6296.jpg" alt="dubai 2">
+                    <img src="dubai/IMG_6297.jpg" alt="dubai 3">
+                    <img src="dubai/IMG_6299.jpg" alt="dubai 4">
+                    <img src="dubai/IMG_6300.jpg" alt="dubai 5">
+                    <img src="dubai/IMG_6301.jpg" alt="dubai 6">
+                    <img src="dubai/IMG_6306.jpg" alt="dubai 7">
+                    <img src="dubai/IMG_6305.jpg" alt="dubai 8">
+                    <img src="dubai/IMG_6303.jpg" alt="dubai 9">
+                    <img src="dubai/IMG_6307.JPG" alt="dubai 10">
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+        <h2>Sign up to be emailed when new pics when they come out!</h2>
+        <form action="" method="">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+     
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+            <label for="country">Favourite Country:</label>
+            <select name="country" id="country">
+                <option value="england"> England</option>
+                <option value="scotland"> Scotland</option>
+                <option value="Wales"> Wales</option>
+                <option value="spain"> Spain</option>
+                <option value="france"> France</option>
+                <option value="turkey"> Turkey</option>
+                <option value="germany"> Germany</option>
+                <option value="indonesia"> Indonesia</option>
+                <option value="singapore"> Singapore</option>
+                <option value="usa"> USA</option>
+                <option value="uae"> UAE</option>
+            </select>
+            <br>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our email list!</label>
+            <br>
+
+            <input type="submit" value="Send!">
+        </form>
+        <hr>
+    </main>
+
+    <footer>
+        <!-- footer goes here -->
+        <h1>Travel Gallery Site</h1>
+        <section>
+            <!-- Our sitemap will go here -->
+            <nav>
+                <ul id="footer-ul">
+                    <div id="sitemap first column">
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/careers">Careers</a></li>
+
+                    </div>
+                    <div id="sitemap second column">
+                        <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+                        <li><a href="/Terms&Conditions">Terms & Conditions</a></li>
+                        <li><a href="/CookiePolicy">Cookie Policy</a></li>
+                    </div>
+
+                </ul>
+            </nav>
+        </section>
+        <section>
+                <!-- Our important files will go here -->
+        </section>
+    </footer>
+</body>
+</html>`

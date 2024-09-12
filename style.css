@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+body > header { /* or #main-header id*/
+    background-color: rgb(243, 243, 245);
+    color: rgb(99, 169, 231);
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+/* font */
+#logo {
+    margin: 0;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    width: 20%;
+}
+/* nav bar */
+#nav-ul{
+    display: flex;
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav >ul{ 
+    list-style: none;
+    text-decoration: none;
+}
+.navbutton{
+    color: rgb(99, 169, 231);
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+}
+nav>ul>a{ 
+    color: rgb(99, 169, 231);
+}
+
+/* form */
+form{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(99, 169, 231);
+}
+h1{
+    font-size: 4vw; 
+    color: rgb(99, 169, 231);
+}
+
+
+/* footer */
+body > footer {
+    background-color: rgb(243, 243, 245);
+    display: flex;
+    font-family: "Playfair Display", serif;
+    color: rgb(99, 169, 231);
+}
+body>footer>p{
+    padding: 16px;
+    color: rgb(99, 169, 231);
+    text-align: center;
+}
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+#footer-ul > div >li{
+    margin-left: 30px;
+}
+#footer-ul > div >li > a{
+    color: rgb(99, 169, 231);
+    text-decoration: none;
+}
+
+/* images div container */
+.gallery-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
