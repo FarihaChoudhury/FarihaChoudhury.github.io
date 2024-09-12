@@ -42,9 +42,29 @@ nav>ul>a{
     color: rgb(99, 169, 231);
 }
 
+/* filter aside */
+#filter >ul{ 
+    list-style: none;
+    text-decoration: none;
+}
+#filter > ul > li{
+    color: rgb(99, 169, 231);
+    padding: 8px;
+    margin: 16px;
+}
+.filterbutton{
+    color: rgb(99, 169, 231);
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+}
+
 /* form */
 form{
     text-align: center;
+}
+h4{
+    color: rgb(10, 48, 82);
 }
 h2{
     text-align: center;
