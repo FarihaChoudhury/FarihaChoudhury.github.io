@@ -51,6 +51,7 @@ nav>ul>a{
     color: rgb(99, 169, 231);
     padding: 8px;
     margin: 16px;
+    text-decoration: none;
 }
 .filterbutton{
     color: rgb(99, 169, 231);
